@@ -14,3 +14,4 @@
 
 ## multi-bleu.perl
 计算BLEU值的脚本
+用法  perl multi-bleu.perl < src.txt dst.txt
