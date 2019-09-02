@@ -19,3 +19,7 @@
 ## build_vocab.py
 在shell里直接执行，免去了在IDE中仿佛修改文件名的繁琐操作。这个文件是用来 构建词汇表的。
 用法：`python build_vocab.py vocab_size < train_file > vocab_file`
+
+
+## 扫描文件进行操作.sh
+一些以后可能会经常用到的一些简单shell脚本用法，遍历文件，进行操作
