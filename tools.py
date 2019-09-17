@@ -10,6 +10,12 @@ import os
 import pickle
 import string
 
+# 递归新建文件夹
+def makedirs(filename):
+    dir_path = os.path.dirname(os.path.abspath(filename))
+    if not os.path.exists(dir_path):
+        os.makedirs(dir_path)
+        print('makedirs %s' % dir_path)
 
 # 将数据保存为pickle文件
 def save_pickle_file(data, filename):
